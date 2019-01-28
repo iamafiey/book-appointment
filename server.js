@@ -19,12 +19,12 @@ var express = require('express'),
           port: 465,
           secure: true,
           auth: {
-              user: 'xxx@xx.com',
-              pass: 'xxxx'
+              user: 'hello@doctoroncall.com.my',
+              pass: 'DoctorOnCall1'
           }
       });
       let mailOptions = {
-          from: '"Krunal Lathiya" <xx@gmail.com>', // sender address
+          from: '"KPJ" <hello@doctoroncall.com.my>', // sender address
           to: req.body.to, // list of receivers
           subject: req.body.subject, // Subject line
           text: req.body.body, // plain text body
