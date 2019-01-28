@@ -1,0 +1,29 @@
+/*start .contact-form*/
+@import url('https://fonts.googleapis.com/css?family=Raleway');
+
+body{
+  font-family: muli, sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+
+a{
+ color: #6D6D6D;
+}
+
+h1{
+  font-weight: 700;
+  font-size: 2.4rem;
+}
+
+.heading{
+  color: #B52222;
+  margin-top: 50px;
+}
+
+form{
+  margin-top: 50px;
+}

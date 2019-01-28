@@ -1,0 +1,24 @@
+{
+  "name": "book-app",
+  "version": "1.0.0",
+  "description": "book-appointment",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "cd Documents\\GitHub\\book-app"
+  },
+  "keywords": [
+    "booking"
+  ],
+  "author": "DoctorOnCall",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "ejs": "^2.6.1",
+    "express": "^4.16.4",
+    "nodemon": "^1.18.9"
+  }
+}
